@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button, ButtonToolbar, Grid, Row, Col} from 'bootstrap'
 import {selectSkill} from 'app/actions'
+import SkillButton from 'app/components/stateless/SkillButton'
 
 import { connect } from 'react-redux'
 
@@ -11,22 +12,15 @@ let SkillList = ({skills, selectSkill}, dispatcher) => {
       <h4>Alphabet Soup</h4>
       <small>
         <em>
-          A list of things technologies is obligatory these days, but it is not practical to list every framework/library/technology here.
+          A list of tech is obligatory these days, but it is not practical to list every framework/library/technology here.
         </em>
       </small>
       <br/>
       <ButtonToolbar>
-        {skills.map(skill => <SkillListItem key={'skill-label-' + skill} skill={skill} selectSkill={selectSkill} />)}
+        {skills.map(skill => <SkillButton key={'skill-label-' + skill} skill={skill} selectSkill={selectSkill} />)}
       </ButtonToolbar>
     </Grid>
   )
-}
-
-let SkillListItem = ({skill, selectSkill}) => {
-  return (
-    <Button onClick={e => selectSkill(skill)}>{skill}</Button>
-  );
-
 }
 
 const mapStateToProps = (state) => {

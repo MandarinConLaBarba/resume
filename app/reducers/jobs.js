@@ -7,7 +7,6 @@ const sortedJobs = fromJS(jobData.sort((a, b) => {
 }))
 
 const jobs = (state = sortedJobs, action) => {
-console.log(action)
   switch (action.type) {
     case 'SELECT_SKILL':
       let skill = action.skill;
@@ -17,10 +16,10 @@ console.log(action)
           if (job.get('skills').indexOf(skill) !== -1) return job;
           return job.set('inactive', true)
         })
-        .sort((a, b) => {
-          if (a.has('inactive') && !b.has('inactive')) return 1
-          return -1
-        })
+        // .sort((a, b) => {
+        //   if (a.has('inactive') && !b.has('inactive')) return 1
+        //   return -1
+        // })
     default:
       return state
   }

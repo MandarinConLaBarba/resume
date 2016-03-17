@@ -1,6 +1,6 @@
 import jobData from 'app/data/jobs'
 
-const jobs = (state = [], action) => {
+const skills = (state = [], action) => {
 
   let skills = [];
 
@@ -17,4 +17,4 @@ const jobs = (state = [], action) => {
 
 }
 
-export default jobs
+export default skills
