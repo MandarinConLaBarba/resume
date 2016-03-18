@@ -5,6 +5,9 @@ const Header = () => {
 
   return (
     <Grid>
+      <div className="profile-img">
+        <img height="100%" src="//raw.githubusercontent.com/MandarinConLaBarba/resume/master/static/img/mandarin.jpg"/>
+      </div>
       <PageHeader>
         Mandarin Drummond, Engineer
         <div className="pull-right page-header-icons">
