@@ -4,7 +4,7 @@ export default [
   {
     title: 'Student, Management Information Systems',
     where: 'University of Oklahoma',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend massa gravida pharetra blandit. Vivamus turpis lectus, malesuada nec scelerisque eu, fermentum sit amet dui. Suspendisse potenti. Donec posuere urna vitae scelerisque mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elementum nibh. Phasellus fringilla nunc sed eros molestie suscipit. Aliquam a ipsum sit amet quam commodo ullamcorper id a odio. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porttitor nisi quis nisi interdum finibus. Quisque massa mi, suscipit id lorem nec, tempus posuere eros.',
+    description: '',
     dateStarted: moment('1999-01-01'),
     dateEnded: moment('2003-01-01'),
     skills: []
@@ -12,7 +12,7 @@ export default [
   {
     title: 'Developer',
     where: 'University of Oklahoma',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In eleifend massa gravida pharetra blandit. Vivamus turpis lectus, malesuada nec scelerisque eu, fermentum sit amet dui. Suspendisse potenti. Donec posuere urna vitae scelerisque mollis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel elementum nibh. Phasellus fringilla nunc sed eros molestie suscipit. Aliquam a ipsum sit amet quam commodo ullamcorper id a odio. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque porttitor nisi quis nisi interdum finibus. Quisque massa mi, suscipit id lorem nec, tempus posuere eros.',
+    description: '',
     dateStarted: moment('2001-01-01'),
     dateEnded: moment('2003-01-01'),
     skills: ['JavaScript', 'PHP', 'HTML', 'CSS', 'Linux', 'CVS', 'MySQL', 'PostgreSQL']
@@ -20,7 +20,7 @@ export default [
   {
     title: 'Senior Developer',
     where: 'Sinapse Consulting',
-    description: 'Nam feugiat ultricies tortor. Mauris et placerat magna, ac convallis arcu. Vestibulum sagittis id odio eget tempus. Suspendisse potenti. Donec id pulvinar velit, ac luctus leo. Donec gravida nibh at mauris rutrum, ac tristique mauris gravida. Nullam ac nunc vitae ante dictum efficitur. Sed consequat quam sed nisi tristique, convallis blandit nibh venenatis. Ut vitae scelerisque leo. Pellentesque vitae efficitur arcu. Proin sagittis interdum mauris. Duis euismod quis enim a porttitor. Ut ac diam suscipit, vehicula nulla id, ultricies magna. Maecenas tincidunt lacus diam, id efficitur velit consectetur sed. Donec pulvinar a justo eu lobortis. Aenean sed lectus ut nunc sollicitudin hendrerit.',
+    description: '',
     dateStarted: moment('2002-01-01'),
     dateEnded: moment('2003-01-01'),
     skills: ['JavaScript', 'PHP', 'HTML', 'CSS', 'Linux', 'CVS', 'MySQL', 'PostgreSQL']
@@ -28,7 +28,7 @@ export default [
   {
     title: 'Director of Engineering',
     where: 'Xplana Learning, Inc.',
-    description: 'Etiam finibus erat dapibus, tincidunt elit sed, laoreet est. Nam accumsan et nulla nec pulvinar. Sed pulvinar, ex ac venenatis convallis, libero orci hendrerit leo, quis venenatis nisl mauris vitae lacus. Sed vitae neque nec urna dictum sodales. Vestibulum sollicitudin neque id turpis semper porttitor. Vestibulum nec consectetur felis. Nunc nisl nulla, tincidunt sed malesuada sagittis, fringilla at lacus.',
+    description: '',
     dateStarted: moment('2003-01-01'),
     dateEnded: moment('2007-04-01'),
     skills: ['JavaScript', 'PHP', 'HTML', 'CSS', 'Flash', 'Linux', 'MVC Pattern', 'SVN', 'MySQL', 'PostgreSQL']
@@ -36,7 +36,7 @@ export default [
   {
     title: 'Lead Software Engineer, RedPlum Network',
     where: 'Valassis',
-    description: 'Etiam finibus erat dapibus, tincidunt elit sed, laoreet est. Nam accumsan et nulla nec pulvinar. Sed pulvinar, ex ac venenatis convallis, libero orci hendrerit leo, quis venenatis nisl mauris vitae lacus. Sed vitae neque nec urna dictum sodales. Vestibulum sollicitudin neque id turpis semper porttitor. Vestibulum nec consectetur felis. Nunc nisl nulla, tincidunt sed malesuada sagittis, fringilla at lacus.',
+    description: 'Worked on RedPlum.com & RedPlum Network, which distributes offer-based content to sites all over the internet. Lead effort on pgesaver.com, which delivers millions of rewards-program offers monthly.',
     dateStarted: moment('2007-04-01'),
     dateEnded: moment('2011-11-01'),
     skills: [
@@ -65,7 +65,7 @@ export default [
   {
     title: 'Lead Software Engineer, Digital Media',
     where: 'Valassis',
-    description: 'Etiam finibus erat dapibus, tincidunt elit sed, laoreet est. Nam accumsan et nulla nec pulvinar. Sed pulvinar, ex ac venenatis convallis, libero orci hendrerit leo, quis venenatis nisl mauris vitae lacus. Sed vitae neque nec urna dictum sodales. Vestibulum sollicitudin neque id turpis semper porttitor. Vestibulum nec consectetur felis. Nunc nisl nulla, tincidunt sed malesuada sagittis, fringilla at lacus.',
+    description: '',
     dateStarted: moment('2011-11-01'),
     dateEnded: moment('2014-01-01'),
     skills: [
@@ -95,7 +95,7 @@ export default [
   {
     title: 'Senior Software Engineer',
     where: 'Circle Street',
-    description: 'Etiam finibus erat dapibus, tincidunt elit sed, laoreet est. Nam accumsan et nulla nec pulvinar. Sed pulvinar, ex ac venenatis convallis, libero orci hendrerit leo, quis venenatis nisl mauris vitae lacus. Sed vitae neque nec urna dictum sodales. Vestibulum sollicitudin neque id turpis semper porttitor. Vestibulum nec consectetur felis. Nunc nisl nulla, tincidunt sed malesuada sagittis, fringilla at lacus.',
+    description: '',
     dateStarted: moment('2014-01-01'),
     dateEnded: moment('2014-05-01'),
     skills: [
@@ -126,7 +126,7 @@ export default [
   {
     title: 'Senior Software Engineer',
     where: 'Valassis',
-    description: 'Etiam finibus erat dapibus, tincidunt elit sed, laoreet est. Nam accumsan et nulla nec pulvinar. Sed pulvinar, ex ac venenatis convallis, libero orci hendrerit leo, quis venenatis nisl mauris vitae lacus. Sed vitae neque nec urna dictum sodales. Vestibulum sollicitudin neque id turpis semper porttitor. Vestibulum nec consectetur felis. Nunc nisl nulla, tincidunt sed malesuada sagittis, fringilla at lacus.',
+    description: '',
     dateStarted: moment('2014-01-01'),
     dateEnded: moment('2015-06-01'),
     skills: [
@@ -161,6 +161,7 @@ export default [
     dateStarted: moment('2015-06-01'),
     dateEnded: moment(),
     skills: [
+      'Java',
       'AWS',
       'Continuous Integration',
       'Buildbot',
@@ -190,7 +191,9 @@ export default [
   {
     title: 'Architect, Principal Software Engineer',
     where: 'Shoflo',
-    description: 'Etiam finibus erat dapibus, tincidunt elit sed, laoreet est. Nam accumsan et nulla nec pulvinar. Sed pulvinar, ex ac venenatis convallis, libero orci hendrerit leo, quis venenatis nisl mauris vitae lacus. Sed vitae neque nec urna dictum sodales. Vestibulum sollicitudin neque id turpis semper porttitor. Vestibulum nec consectetur felis. Nunc nisl nulla, tincidunt sed malesuada sagittis, fringilla at lacus.',
+    description: ['Shoflo specializes in real-time production cue sheet and scripting software for live events. ',
+    'Responsible for architectural design, implementation, development leadership and workflow. ',
+    'At Shoflo we role out rapid deployments so we rely on extremely efficient development and automated deployment processes. '],
     dateStarted: moment('2015-01-01'),
     dateEnded: moment(),
     skills: [
