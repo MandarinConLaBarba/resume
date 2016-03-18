@@ -181,7 +181,6 @@ export default [
       'Web Driver JS',
       'Selenium',
       'HTML',
-      'LESS',
       'Stylus',
       'CSS',
       'Promises',
