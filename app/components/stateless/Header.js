@@ -32,6 +32,12 @@ const Header = () => {
         in other areas.
       </p>
 
+      <p>
+        This resume is published via <a href="https://pages.github.com/">GitHub pages</a>.
+        It was written with <a href="https://facebook.github.io/react/">React</a>+<a href="http://redux.js.org/">Redux</a>, among <a href="https://github.com/MandarinConLaBarba/resume/blob/master/package.json">other things</a>. 
+        The source is open and available <a href="https://github.com/MandarinConLaBarba/resume">here</a>.
+      </p>
+
     </Grid>
   )
 }
