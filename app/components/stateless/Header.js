@@ -5,6 +5,7 @@ const Header = () => {
 
   return (
     <Grid>
+      <div className="profile-img" />
       <PageHeader>
         Mandarin Drummond, Engineer
         <div className="pull-right page-header-icons">

@@ -33,7 +33,7 @@ let JobListItem = ({job, selectSkill}) => {
     <div>
       <Panel header={titleNode} className={classNames({'panel-inactive': job.get('inactive')})}>
         {job.get('description')}
-        <p>{job.get('skills').map(skill => <SkillButton skill={skill} selectSkill={selectSkill}/>)}</p>
+        {/*<p>{job.get('skills').map(skill => <SkillButton skill={skill} selectSkill={selectSkill}/>)}</p>*/}
       </Panel>
     </div>
   );
