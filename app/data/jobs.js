@@ -192,7 +192,7 @@ export default [
     where: 'Shoflo',
     description: ['Shoflo specializes in real-time production cue sheet and scripting software for live events. ',
     'Responsible for architectural design, implementation, development leadership and workflow. ',
-    'At Shoflo we role out rapid deployments so we rely on extremely efficient development and automated deployment processes. '],
+    'At Shoflo we roll out rapid deployments so we rely on extremely efficient development and automated deployment processes. '],
     dateStarted: moment('2015-01-01'),
     dateEnded: moment(),
     skills: [
