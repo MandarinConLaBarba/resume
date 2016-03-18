@@ -29,9 +29,8 @@ const Header = () => {
       </p>
       <p>
         The last few years I've been riding the JavaScript wave. I find the JavaScript ecosystem exciting and dynamic, but I'm also interested
-        in other areas.
+        in other areas. Beyond the workplace I enjoy practicing Spanish and volunteering.
       </p>
-
       <p>
         This resume is published via <a href="https://pages.github.com/">GitHub pages</a>.
         It was written with <a href="https://facebook.github.io/react/">React</a>+<a href="http://redux.js.org/">Redux</a>, among <a href="https://github.com/MandarinConLaBarba/resume/blob/master/package.json">other things</a>.
