@@ -55,7 +55,7 @@ export default [
       'CSS',
       'REST',
       'SOAP',
-      'CI',
+      'Continuous Integration',
       'VSS',
       'Git',
       'MSSQL',
