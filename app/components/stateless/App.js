@@ -2,12 +2,14 @@ import React from 'react'
 import JobList from 'app/components/stateful/JobList'
 import SkillList from 'app/components/stateful/SkillList'
 import Header from 'app/components/stateless/Header'
+import {Grid} from 'bootstrap'
+
 const App = () => (
-  <div>
+  <Grid fluid>
     <Header/>
     <SkillList/>
     <JobList/>
-  </div>
+  </Grid>
 )
 
 export default App

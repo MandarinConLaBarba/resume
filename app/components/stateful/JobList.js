@@ -1,21 +1,24 @@
 import React from 'react'
-import {Panel, Grid, Label} from 'bootstrap'
+import {Panel, Label, Row, Col} from 'bootstrap'
 import {selectSkill} from 'app/actions'
 import SkillButton from 'app/components/stateless/SkillButton'
 import classNames from 'classnames'
+import gridConfig from 'app/components/config/grid'
 
 import { connect } from 'react-redux'
 
 let JobList = ({jobs, selectSkill}) => {
 
   return (
-    <Grid>
-      <h4>Experience</h4>
-      {jobs.map(job => {
-        let key = 'job-' + job.get('title') + job.get('where')
-        return <JobListItem key={key} job={job} selectSkill={selectSkill} />
-      })}
-    </Grid>
+    <Row>
+      <Col {...gridConfig}>
+        <h4>Experience</h4>
+        {jobs.map(job => {
+          let key = 'job-' + job.get('title') + job.get('where')
+          return <JobListItem key={key} job={job} selectSkill={selectSkill} />
+        })}
+      </Col>
+    </Row>
   )
 }
 
