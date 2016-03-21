@@ -1,3 +1,7 @@
+body
+  @media (max-width: 749px)
+    font-size 20px
+
 a
   color #F39F21 !important
   &:hover
@@ -14,33 +18,57 @@ a
     font-size 20px
 
 .btn
-  padding 4px
+  padding 2px
   margin-bottom 3px
   color #F39F21 !important
   &:hover
    color #F33E21 !important
+  overflow hidden
 
 .panel-inactive
   color lightgray
+  transform translateX(30px)
+  -webkit-transform translateX(30px)
   .panel-heading
     color lightgray
   .btn
     color lightgray
 
 .panel
-  transition max-height 1s ease
-  transition color 1s ease
+  -webkit-transition 1s ease
+  transition 1s ease
   overflow hidden
   .panel-heading
     transition color 1s ease
-  .btn
-    padding 2px
-    font-size 10px
-    margin-right 5px
+    -webkit-transition color 1s ease
 
 .profile-img
-  height 100px
-  width 100px
+  width 90px
+  height 90px
+  transition 1s
+  @media (max-width: 1178px) and (min-width: 970px)
+    width 150px
+    height 150px
+  @media (max-width: 969px) and (min-width: 750px)
+    width 140px
+    height 140px
+  @media (max-width: 749px) and (min-width: 400px)
+    width 120px
+    height 120px
+  @media (max-width: 399px)
+    width 90px
+    height 90px
+
+
   position fixed
   top 40px
-  left 30px
+  left 20px
+
+.btn-skill
+  transform rotate(0)
+  transition .5s
+  -webkit-transform rotate(0)
+  -webkit-transition .5s
+  &:hover
+    transform rotateX(360deg)
+    -webkit-transform rotateX(360deg)
