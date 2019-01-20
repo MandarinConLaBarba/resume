@@ -198,7 +198,6 @@ export default [
     skills: [
       'AWS',
       'AWS Beanstalk',
-      'Elastic',
       'JavaScript',
       'ES6',
       'ReactJS',
@@ -224,5 +223,23 @@ export default [
       'Linux',
       'Webpack',
       'REST']
+  },
+  {
+    title: 'Chief Technical Officer',
+    where: 'Shoflo',
+    description: [''],
+    dateStarted: moment('2017-01-01'),
+    dateEnded: moment(),
+    skills: [
+      'AWS',
+      'AWS Beanstalk',
+      'AWS Lambda'
+      'RxJS',
+      'React',
+      'Jest',
+      'MongoDB Atlas',
+      'Continuous Integration',
+      'Circle CI'
+    ]
   }
 ]
